@@ -2,7 +2,7 @@ import { FC, SVGProps } from "react";
 
 interface IProps extends SVGProps<SVGSVGElement> {}
 
-const ArrowIcon: FC<IProps> = (props) => {
+const ArrowIcon: FC<IProps> = () => {
   return (
     <svg
       className="w-2.5 h-2.5 ms-2.5"

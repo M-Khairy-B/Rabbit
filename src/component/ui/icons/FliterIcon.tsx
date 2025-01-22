@@ -2,7 +2,7 @@ import { FC, SVGProps } from "react";
 
 interface IProps extends SVGProps<SVGSVGElement> {}
 
-const FliterIcon: FC<IProps> = (props) => {
+const FliterIcon: FC<IProps> = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

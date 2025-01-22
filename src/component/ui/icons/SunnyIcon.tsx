@@ -2,7 +2,7 @@ import { FC, SVGProps } from "react";
 
 interface IProps extends SVGProps<SVGSVGElement> {}
 
-const SunnyIcon: FC<IProps> = (props) => {
+const SunnyIcon: FC<IProps> = () => {
   return (
     <svg
       className="w-4 h-4"

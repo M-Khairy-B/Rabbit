@@ -1,10 +1,10 @@
-import React, { FC, useState } from "react";
+import { FC, useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "@public/images/logo.png";
 import CloseIcon from "../ui/icons/CloseIcon";
-import ToggleIcon from "../ui/icons/toggleIcon";
 import SunnyIcon from "../ui/icons/SunnyIcon";
 import MoonIcon from "../ui/icons/MoonIcon";
+import ToggleIcon from "../ui/icons/ToggleIcon";
 
 export const Navbar: FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

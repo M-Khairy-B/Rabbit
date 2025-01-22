@@ -1,4 +1,3 @@
-import React from "react";
 import NotFound404 from "@public/images/404.png";
 export const NotFound = () => {
   return (

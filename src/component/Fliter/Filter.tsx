@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import { FC, useState } from "react";
 import ArrowIcon from "../ui/icons/ArrowIcon";
 import FliterIcon from "../ui/icons/FliterIcon";
 

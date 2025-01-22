@@ -2,7 +2,7 @@ import { FC, SVGProps } from "react";
 
 interface IProps extends SVGProps<SVGSVGElement> {}
 
-const ClockIcon: FC<IProps> = (props) => {
+const ClockIcon: FC<IProps> = () => {
   return (
     <svg
       className="w-3 h-3 text-gray-500 dark:text-gray-400 me-3"
